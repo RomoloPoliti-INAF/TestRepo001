@@ -2,7 +2,7 @@ class SimbioTail:
     """SIMBIO-SYS Tail class.
     define a obserbvation window of a channel with all geometric and operative parameters"""
 
-    __slots__ = ['instrument']
+    __slots__ = ['instrument', 'instrument_mode']
 
     def __init__(self,instrument:str, instrument_mode:int) -> None:
         """AI is creating summary for __init__
