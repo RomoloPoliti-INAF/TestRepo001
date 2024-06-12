@@ -10,4 +10,4 @@ API
 :mod:`Test1` -- Main package
 ****************************
 
-.. automodule:: Test1
+.. automodule:: Test1.__main__
